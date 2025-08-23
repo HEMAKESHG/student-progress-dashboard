@@ -1,12 +1,59 @@
-# React + Vite
+# **Student Academic Progress Dashboard**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **React + Vite** web application for tracking and managing students’ academic performance, including **credits earned, CGPA, and department requirements**.  
+Now live at: [https://sec-student-dashboard-hg.web.app](https://sec-student-dashboard-hg.web.app)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **🚀 Features**
 
-## Expanding the ESLint configuration
+### **PDF Upload & Parsing**
+- Extracts **total credits earned** and **current CGPA** automatically.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### **Interactive Dashboard**
+- Clean summary cards for key statistics.
+- Visual credit breakdown for quick insights.
+
+### **Department Rules Integration**
+- Tracks required credits per category.
+
+### **Authentication Support**
+- Secure login system for controlled access.
+
+### **Responsive Design**
+- Optimized for desktop and mobile users.
+
+### **Hosted with Firebase**
+- Fast and reliable global hosting.
+
+---
+
+## **🛠 Tech Stack**
+
+- **Frontend:** React (Vite), Tailwind CSS  
+- **State Management:** React Hooks  
+- **PDF Parsing:** pdfjs-dist  
+- **Backend/Hosting:** Firebase Hosting & Authentication  
+- **Build Tools:** Vite + ESLint  
+
+---
+
+## **📂 Project Structure**
+
+🔗 Live Demo
+
+Main Site: https://sec-student-dashboard-hg.web.app
+
+Login Page: https://sec-student-dashboard-hg.web.app/login
+
+## 📌 Conclusion
+
+The **Student Academic Progress Dashboard** is a reliable and user-friendly platform to monitor academic performance with ease.  
+By integrating **React, Vite, Firebase, and PDF parsing**, this project demonstrates how modern web technologies can simplify data management for students and institutions alike.  
+
+### Future Improvements:
+- Adding role-based access for faculty and students  
+- Generating downloadable performance reports  
+- Enhanced analytics and prediction models using AI/ML  
+
+With its clean design, scalability, and modern tech stack, this project serves as a strong foundation for academic management systems.
